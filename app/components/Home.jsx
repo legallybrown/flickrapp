@@ -4,7 +4,7 @@ class Home extends React.Component {
   render() {
     return (
       <NestedViewList {...this.props.viewListProps}>
-        <View title="flickrapp">
+        <View title="FlickrApp">
           <p>Hello, World!</p>
 
           <Button onTap={() => this.router().transitionTo('sub')}>
